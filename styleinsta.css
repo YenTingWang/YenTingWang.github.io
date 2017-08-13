@@ -1,104 +1,51 @@
 
- html,body,.h1,h2,h3,h4,h5,h6,p,div,article,header,footer,nav,section, .thumbnail, .pic-word{
+ html,body,h1,h2,h3,h4,h5,h6,p,div,article,header,footer,nav,section{
       margin: 0;
       padding: 0;
-      font-family: 'Playfair Display', serif;
       box-sizing: border-box;
+      font-family: 'Satisfy', cursive;
   }
 
-.h1{
-    display: block;
-    height: 500px;
-    font-size: 50px;
-    letter-spacing: 2px;
-    font-weight: 300;
-    margin: 100px;
-    padding-top: 80px;
+[class^=col]{
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
 }
 
-.border{
-    border: 3px solid goldenrod;
-
-}
-section ul li{
-    display: inline-block;
-    list-style-type: none;
-
-}
-
-section ul{
-    text-align: center;
-    margin: 0 auto;
-}
-
-section{
-    padding-right: 30px;
-    padding-top: 25px;
-    padding-bottom: 15px;
-    height: 50px;
-}
-section a{
-    display: inline-block;
-    padding-left: 45px;
-    text-decoration: none;
-    color: goldenrod;
+nav h1{
     letter-spacing: 3px;
-}
-.carousel{
-    margin: 30px auto;
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-
-[class^= col-]{
-    float: left;
+    word-spacing: 3px;
+    font-weight: 200;
+    font-size: 50px;
 }
 
-.row{
-    margin: 0 auto;
-    clear: both;
+nav{
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-weight: 100;
+    font-size: 30px;
+    color: sienna;
+    height: 100px;
+    padding: 45px;
     display: block;
-
-}
-
-img{
-    max-width: 100%;
-    margin: 0 auto;
-
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
+    margin-bottom: 50px;
 }
 .container{
     margin: 0 auto;
 }
-
-.pic-word .thumbnail{
-    display: block;
-    height: 300px;
-    width: 300px;
-    margin: 0 auto;
-    position: relative;
+[class^= col-]{
+    float: left;
 }
 
-.pic-word{
-    height: 500px;
-    margin: 0 auto;
+img{
+    width: 100%;
 }
 
-.interpret{
-    position: absolute;
-    width: 400px;
-    height: 150px;
-    top: 320px;
-    left: 40px;
-    background: whitesmoke;
-    text-align: center;
-    margin: 0 auto;
-    border-radius: 5px;
-    font-family: 'PT Sans Narrow', sans-serif;
+img:hover {
+	opacity:0.8;
+	-moz-opacity:0.8;
+	-webkit-opacity:0.8;
 }
-
-.small{
-    height: 380px;
-}
-
 
 
 @media screen and (max-width: 768px) {
@@ -106,32 +53,18 @@ img{
           width: 100%;
           margin: 0 auto;
      }
-    .pad{
-        margin-top: 30px; 
-    }
-    section{
-        padding-right: 30px;
-        padding-top: 25px;
-        padding-bottom: 10px;
-        height: 30px;
-    }
-    section a{
-        display: inline-block;
-        padding-left: 10px;
-        text-decoration: none;
-        color: goldenrod;
-        letter-spacing: 3px;
-    }
-    .carousel-caption h1{
-        font-size: 20px;
-    }
 
-    .carousel-caption p{
+     nav h1{
+         font-size: 35px;
+     }
 
-        font-size: 8px;
-    }
+     nav{
+         height: 60px;
+         padding: 25px;
+     }
      .col-xs-1 {
          width: calc(100% * 1 / 12);
+
      }
      .col-xs-2 {
          width: calc(100% * 2 / 12);
@@ -164,7 +97,9 @@ img{
          width: calc(100% * 11 / 12);
      }
      .col-xs-12 {
-         width: calc(100% * 12 / 12);
+         width: calc(100% * 12 / 12);        
+         padding: 25px;
+         margin-top: 10px; 
      }
 }
 
@@ -174,16 +109,12 @@ img{
         width: 750px;
         margin: 0 auto;
     }
-    .pad{
-        margin-left: 50px;
-        margin-top: 30px; 
-    }
-
     .col-sm-1 {
           width: calc(100% * 1 / 12);
      }
      .col-sm-2 {
          width: calc(100% * 2 / 12);
+
      }
      .col-sm-3 {
          width: calc(100% * 3 / 12);
@@ -196,6 +127,8 @@ img{
      }
      .col-sm-6 {
          width: calc(100% * 6 / 12);
+         padding: 25px;
+         margin-top: 10px; 
      }
      .col-sm-7 {
          width: calc(100% * 7 / 12);
@@ -235,6 +168,8 @@ img{
     }
     .col-md-4 {
         width: calc(100% * 4 / 12);
+        padding: 25px;
+        margin-top: 10px; 
     }
     .col-md-5 {
         width: calc(100% * 5 / 12);
@@ -266,14 +201,9 @@ img{
 @media screen and (min-width: 1200px){
     .container {
         width: 1200px;
-        margin: 0 auto;
+        margin: 0px auto;
     }
 
-    .h1{
-        display: block;
-        height: 900px;
-        line-height: 900px;
-    }
     .col-lg-1 {
         width: calc(100% * 1 / 12);
     }
@@ -286,13 +216,14 @@ img{
     }
     .col-lg-4 {
         width: calc(100% * 4 / 12);
+        padding: 25px;
+        margin-top: 10px; 
     }
     .col-lg-5 {
         width: calc(100% * 5 / 12);
     }
     .col-lg-6 {
         width: calc(100% * 6 / 12);
-        height: 465px;
     }
     .col-lg-7 {
         width: calc(100% * 7 / 12);
