@@ -1,0 +1,266 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    font-family: 'Dosis', sans-serif;
+    float: left;
+    
+}
+
+a,
+a:visited,
+a:hover,
+a:active{
+  text-decoration: none;
+}
+
+.page{
+    font-weight: 800;
+    background-color: white;
+    color: darkolivegreen;
+    display: inline-block;
+    padding: 8px 22px;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.25); 
+    border-radius: 20px;
+    
+
+}
+
+.link{
+    padding-top: 15px;
+    padding-left: 120px; 
+    overflow: auto;
+    height: 130px;
+    width: calc(100%/3);
+    float: left;
+}
+nav{
+    overflow: auto;
+    margin: 0px;
+    width: 100%;
+    height:130px;
+    padding: 10px;
+    border-bottom: 1.5px dashed darkolivegreen;
+}
+
+.title{
+    margin-top: 25px;
+    padding: 15px;
+    overflow: auto;
+    float: left;
+    width: calc(100%/3);
+
+}
+.page:hover{
+    color: darkblue
+}
+
+h1{
+    font-size: 20px
+}
+#title1{
+    font-size: 30px;
+    color: olive;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.icon{
+    margin-top: 15px;
+    overflow: auto;
+    height: 130px;
+    float: left;
+    width: calc(100%/3);
+}
+
+[class^=fa]{
+    background-color: white;
+    color: darkolivegreen;
+    display: inline-block;
+    padding: 10px 18px;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.25); 
+    border-radius: 20px; 
+
+}
+[class^=fa]:hover{
+    color: darkblue
+
+}
+
+header{
+    margin :0;
+    display: block;
+    background-image:url(https://s7d6.turboimg.net/sp/db91fc6ac7205f1555b40dc4d35acb1b/_000_resized_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 1450px;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+h2{
+    padding-top: 100px;
+    color:darkslategray;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+
+}
+
+section{
+    overflow: hidden
+}
+.category{
+    margin: 10px;
+    border-radius: 20px;
+    float:left;
+    width: calc(100%/3 - 25px);
+    height: 350px;
+    text-align: center;
+     
+    padding: center;
+    
+
+}
+
+.type{
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    border: 5px thick dotted lightblue;
+    
+    height: 50px;
+    width: 120px;
+    padding-top: 5px; 
+    margin-top: 165px;
+    font-size: 30px;
+    color: plum
+   
+}
+h3{
+
+    text-align: center;
+    padding: 
+}
+
+.type:hover{
+
+    box-shadow: 4px 4px 3px rgba(0,0,0,0.25);
+    color: orange
+}
+
+.type:visited{
+
+    color: darkorchid
+}
+
+#category1{
+
+    background-image: url(https://source.unsplash.com/collection/190727/500x400)
+}
+
+#category2{
+    background-image: url(https://source.unsplash.com/collection/190727/600x400)
+
+}
+
+#category3{
+    background-image: url(https://source.unsplash.com/collection/190727/550x400)
+
+}
+
+
+article{ 
+    margin-right: 10px; 
+    padding: 30px;
+    float: left;
+    height: 350px;
+    width: calc(60% - 10px);
+    background-color: whitesmoke;
+    border-radius: 50px;
+
+}
+
+
+li{
+    height: 50px;
+    padding-left: 50px;
+    list-style-type: disc;
+    display: block;
+    margin: 10px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ar_Icon_Article.svg/1126px-Ar_Icon_Article.svg.png);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+   
+}
+
+a[class^=article]{
+    color: darkolivegreen;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+li p{
+    color: olive
+
+
+}
+
+
+author{
+    padding-left: 150px;
+    float: left;
+    height:350px;
+    width: 40%;
+    background-image: url(http://img.freeflagicons.com/thumb/square_flag_pin/republic_of_china/republic_of_china_640.png);
+    background-size: 160px 120px;
+    background-repeat: no-repeat; 
+    background-position: 20px 20px;
+    background-color: whitesmoke;
+    border-radius: 30px; 
+}
+
+.me{ 
+    height: 200px;
+    padding-top: 40px; 
+    padding-left: 60px; 
+}
+.me>img{
+    height: 150px;
+    width: 180px;
+    border-radius: 40px;
+    border: 1 px solid black
+
+}
+
+.profile{
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    color: darkolivegreen
+}
+
+.profile h1{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.profile p{
+    font-size: 18px
+}
