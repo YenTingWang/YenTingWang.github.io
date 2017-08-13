@@ -121,20 +121,13 @@ side{
     position: relative;
 }
 
-#picture1{
-    position: relative;
-    top: 0px;
-    left: 100px; 
-}
-#picture3{
-    position: relative;
-    top: 0px;
-    left: 100px; 
-}
 img{
     width: 100%;
 }
 
+.picture>h1{
+    display: none;
+}
 
 .picture:hover{
     position: relative;
@@ -144,7 +137,7 @@ img{
 
 
 
-.picture>h1:first-of-type{
+.picture:hover>h1{
     display: block;
     position: absolute;
     top: 50px;
